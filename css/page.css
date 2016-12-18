@@ -1,0 +1,755 @@
+body{
+	overflow-x: hidden;
+}
+#page{
+	min-width: 1000px;
+}
+#pager .jkBanner{
+	box-sizing: border-box;
+    height: 525px;
+    position: relative;
+    text-align: center;
+    min-width: 1000px;
+    background: url(../imgs/sp_56c863c.jpg) no-repeat center / 1920px 540px;
+}
+
+/*视频*/
+#pager .jkBanner .video{
+	display: inline-block;
+    width: 100%;
+    height: 525px;
+    overflow: hidden;
+    position: relative;
+
+}
+#pager .jkBanner .video video{
+	width: 1920px;
+	position: relative;
+    left: 50%;
+    margin-left: -960px;
+}
+#pager .jkBanner .video_mask{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 525px;
+	background: rgba(0,0,0,.6);
+}
+
+/*内容*/
+#pager .jkBanner .bannerInfo{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 525px;
+	width: 100%;
+}
+.jkBanner .bannerInfo>h1 {
+    font-size: 35px;
+    color: #fff;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    height: 45px;
+    line-height: 45px;
+}
+.jkBanner .bannerInfo>p{
+	font-size: 13px;
+    color: #fafafa;
+    height: 21px;
+    line-height: 21px;
+}
+.jkBanner .bannerDownload{
+	margin-top: 48px;
+	height: 44px;
+}
+.jkBanner .bannerDownload > a{
+	display: inline-block;
+	width: 141px;
+	height: 44px;
+	line-height: 44px;
+	margin-right: 20px;
+}
+.jkBanner .bannerDownload .androidDownload{
+	background: url(../imgs/anddown_92313c1.png) no-repeat center / 141px 44px;
+}
+.jkBanner .bannerDownload .iosDownload{
+	background: url(../imgs/iosdown_0813309.png) no-repeat center / 141px 44px;
+}
+.jkBanner .bannerDownload .androidDownload:hover{
+	background: url(../imgs/anddownhover_6bed6d5.png) no-repeat center / 141px 44px; 
+
+}
+.jkBanner .bannerDownload .iosDownload:hover{
+	background: url(../imgs/iosdownhover_43e4f99.png) no-repeat center / 141px 44px;
+}
+
+.jkBanner .bannerInfo>span{
+	margin-top: 45px;
+	font-size: 12px;
+	height: 18px;
+	line-height: 18px;
+	display: block;
+	color: #fafafa;
+}
+.jkBanner .bannerStatus{
+	height: 38px;
+	margin-top: 15px;
+}
+.jkBanner .bannerStatus>a{
+	display: inline-block;
+	width: 38px;
+	height: 38px;
+	margin-right: 25px;
+	transition: all .5s ease;
+	-moz-transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+.jkBanner .bannerStatus  .wechatLogin{
+	background: url(../imgs/weixinlogin_204d5be.png) no-repeat center / 38px 38px;
+}
+.jkBanner .bannerStatus .qqLogin {
+    background: url(../imgs/qqlogin_43fbf38.png) no-repeat center / 38px 38px;
+}
+.jkBanner .bannerStatus .weiboLogin {
+    background: url(../imgs/weibologin_7cb8c71.png) no-repeat center / 38px 38px;
+}
+.jkBanner .bannerStatus .phoneLogin {
+    background: url(../imgs/phonelogin_39c73f9.png) no-repeat center / 38px 38px;
+}
+.jkBanner .bannerStatus  .wechatLogin:hover{
+	background: url(../imgs/weixinloginhover_acca8e3.png) no-repeat center / 38px 38px;
+}
+.jkBanner .bannerStatus .qqLogin:hover {
+    background: url(../imgs/qqloginhover_fd0f74b.png) no-repeat center / 38px 38px;
+}
+.jkBanner .bannerStatus .weiboLogin:hover {
+    background: url(../imgs/weibologinhover_0c48361.png) no-repeat center / 38px 38px;
+}
+.jkBanner .bannerStatus .phoneLogin:hover{
+	background: url(../imgs/phoneloginhover_d5ddac1.png) no-repeat center / 38px 38px;
+}
+
+/***职业学院**专项课程**极客社区**/
+.jkBanner .bannerCard{
+	width: 1000px;
+	height: 240px;
+	margin: 0 auto;
+    position: relative;
+    top: 36px;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+}
+.jkBanner  .bannerCard div{
+	width: 320px;
+	height: 240px;
+	background: #fff;
+}
+.jkBanner  .bannerCard .cardInfo{
+	height: 130px;
+    background: #f9f9f9;
+}
+.jkBanner  .bannerCard .cardInfo h3{
+	border-bottom: 1px solid #eee;
+	height: 50px;
+	line-height: 50px;
+	color: #333;
+	font-size: 18px;
+}
+.jkBanner  .bannerCard .cardInfo p{
+	height: 80px;
+	text-align: left;
+	font-size: 13px;
+	color: #444;
+	overflow: hidden;
+	padding: 10px 17px;
+	line-height: 20px;
+}
+.jkBanner .bannerCard .collegeClass,
+.jkBanner .bannerCard .libraryClass,
+.jkBanner .bannerCard .communityClass{
+	height: 110px;
+}
+
+/**职业学院**/
+.jkBanner  .bannerCard ul{
+	height: 100%;
+	display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+}
+.jkBanner  .bannerCard .collegeClass li{
+	font-size: 12px;
+    color: #666;
+    text-align: center;
+    height: 100%;
+    width: 25%;
+}
+.jkBanner  .bannerCard .collegeClass li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.jkBanner  .bannerCard .collegeClass li a i{
+	display: block;
+	margin: 0 auto;
+	width: 50px;
+	height: 50px;
+	border: 1px solid #eee;
+    border-radius: 50%;
+    transition: border .5s;
+    -moz-transition: border .5s;
+    -webkit-transition: border .5s;
+    -o-transition: border .5s;
+}
+
+.jkBanner  .bannerCard .collegeClass .webCard{
+	    background: url(../imgs/cardhtml5_c4de6b8.jpg) no-repeat center / 26px 35px;
+}
+.jkBanner  .bannerCard .collegeClass .pythonCard{
+	    background: url(../imgs/cardpython_46dafa5.png) no-repeat center / 35px 35px;
+}
+.jkBanner  .bannerCard .collegeClass .goCard{
+	    background: url(../imgs/cardgo_f7d5603.png) no-repeat center / 25px 35px;
+}
+.jkBanner  .bannerCard .collegeClass .iosCard{
+	    background: url(../imgs/cardios_1b210b7.jpg) no-repeat center /  30px 35px;
+}
+.jkBanner  .bannerCard .collegeClass li a span{
+	display: block;
+    margin-top: 7px;
+    color: #666;
+    transition: color .5s;
+    -moz-transition: color .5s;
+    -webkit-transition: color .5s;
+    -o-transition: color .5s;
+}
+.jkBanner  .bannerCard .collegeClass ul li:hover .webCard{
+	border: 1px solid #dc4d10;
+}
+.jkBanner  .bannerCard .collegeClass ul li:hover .pythonCard{
+	border: 1px solid #f9d423;
+}
+.jkBanner  .bannerCard .collegeClass ul li:hover .goCard{
+    border: 1px solid #6ad7e5;
+}
+.jkBanner  .bannerCard .collegeClass ul li:hover .iosCard{
+	border: 1px solid #666;
+}
+.jkBanner  .bannerCard .collegeClass ul li:hover span{
+	color: #35b558;
+}
+
+/**专项课程**/
+
+.jkBanner .bannerCard .libraryClass ul li{
+	height: 100%;
+	width: 150px;
+}
+.jkBanner .bannerCard .libraryClass ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.jkBanner .bannerCard .libraryClass ul li i{
+	width: 100%;
+    height: 57px;
+    font-size: 13px;
+    color: #444;
+    padding-top: 35px;
+    display: block;
+}
+.jkBanner .bannerCard .libraryClass ul li span{
+	display: block;
+	color: #666;
+} 
+.jkBanner .bannerCard .libraryClass ul li .videoCard{
+	background: url(../imgs/cardvideo_744765b.jpg) no-repeat top center / 30px 30px;
+}
+.jkBanner .bannerCard .libraryClass ul li .wikiCard{
+	background: url(../imgs/cardwiki_5eaea4b.jpg) no-repeat top center / 25px 26px;
+}
+.jkBanner .bannerCard .libraryClass ul li:hover .videoCard{
+	color: #35b558;
+	background: url(../imgs/cardvideohover_a616ae2.png) no-repeat top center / 30px 30px;
+}
+.jkBanner .bannerCard .libraryClass ul li:hover .wikiCard{
+	color: #35b558;
+	background: url(../imgs/cardwikihover_6974141.png) no-repeat top center / 25px 26px;
+}
+
+/**极客社区**/
+.jkBanner .bannerCard .communityClass ul li{
+	height: 100%;
+	width: 100px;
+}
+.jkBanner .bannerCard .communityClass ul li i{
+	display: block;
+    width: 100%;
+    height: 57px;
+    font-size: 13px;
+    color: #444;
+    padding-top: 35px;
+}
+.jkBanner .bannerCard .communityClass ul li span{
+    display: block;
+    color: #666;
+}
+.jkBanner .bannerCard .communityClass ul li .xueCard{
+	background: url(../imgs/cardxue_99b0a45.jpg) no-repeat top center / 33px 28px;
+}
+.jkBanner .bannerCard .communityClass ul li .jiaoCard{
+	background: url(../imgs/cardjiao_d70bff6.jpg) no-repeat top center / 36px 27px;
+}
+.jkBanner .bannerCard .communityClass ul li .buCard{
+	background: url(../imgs/cardbu_1d16287.jpg) no-repeat top center / 22px 30px;
+}
+
+
+/****************************************就业学习*基础学习*专项提高****************************************/
+.jkJiuye,
+.jkBase,
+.jkSku{
+	width: 1000px;
+	margin: 140px auto 0 auto;
+	height: 330px;
+	box-sizing: border-box;
+	position: relative;
+}
+.jkBase,
+.jkSku{
+	margin-top: 30px;
+}
+.jkJiuye ul,
+.jkBase ul,
+.jkSku ul,
+.jkDk ul,
+.jkBai ul,
+.jkStudent ul,
+.jkOrganization ul{
+	height: 100%;
+	width: 100%;
+}
+.jkJiuye ul li,
+.jkBase ul li,
+.jkSku ul li,
+.jkDk ul li,
+.jkBai ul li,
+.jkStudent ul li,
+.jkOrganization ul li{
+	float: left;
+    background: #fff;
+}
+.jkJiuye ul li a,
+.jkBase ul li a,
+.jkSku ul li a,
+.jkDk ul li a,
+.jkBai ul li a,
+.jkStudent ul li a,
+.jkOrganization ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.jkJiuye ul li a img,
+.jkBase ul li a img,
+.jkSku ul li a img,
+.jkDk ul li a img,
+.jkBai ul li a img,
+.jkStudent ul li a img,
+.jkOrganization ul li a img{
+	width: 100%;
+	height: 100%;
+}
+.jkJiuye ul>li:nth-child(1),
+.jkBase ul>li:nth-child(1),
+.jkSku ul>li:nth-child(1),
+.jkDk ul>li:nth-child(1),
+.jkBai ul>li:nth-child(1),
+.jkStudent ul>li:nth-child(1),
+.jkOrganization ul>li:nth-child(1){
+	margin-right: 13px;
+}
+.jkJiuye .childnav_title,
+.jkBase .childnav_title,
+.jkSku .childnav_title,
+.jkDk .childnav_title,
+.jkBai .childnav_title,
+.jkStudent .childnav_title,
+.jkOrganization .childnav_title{
+	width: 230px;
+	height: 100%;
+	padding-top: 10px;
+}
+
+.jkJiuye .childnav_title h2,
+.jkBase .childnav_title h2,
+.jkSku .childnav_title h2{
+	padding-left: 15px;
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	border-left: 2px solid #35b558;
+	font-size: 19px;
+}
+.jkJiuye .childnav_title p,
+.jkBase .childnav_title p,
+.jkSku .childnav_title  p{
+	padding-left: 17px;
+	height: 22px;
+	line-height: 22px;
+	font-size: 12px;
+	width: 100%;
+	color: #666;
+}
+.jkJiuye .childnav_title p:nth-child(1),
+.jkBase .childnav_title p:nth-child(1),
+.jkSku .childnav_title  p:nth-child(1){
+	margin-top: 5px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 14px;
+	color: #333;
+}
+.jkJiuye .childnav_title .img,
+.jkBase .childnav_title .img,
+.jkSku .childnav_title .img{
+	width: 100%;
+	height: 155px;
+	text-align: center;
+}
+.jkJiuye .childnav_title .img img,
+.jkBase .childnav_title .img img,
+.jkSku .childnav_title img{
+	display: inline-block;
+	margin: 38px auto 0 auto;
+	width: 120px;
+	height: 88px;
+}
+.jkJiuye .childnav_title span,
+.jkBase .childnav_title span,
+.jkSku .childnav_title span{
+	width: 62px;
+	height: 18px;
+	font-size: 12px;
+	line-height: 16px;
+	border: 1px solid #eee;
+	border-radius: 2px;
+	color: #666;
+	margin-bottom: 5px;
+	vertical-align: top;
+	overflow: hidden;
+	display: block;
+	margin-left: 17px;
+}
+.jkJiuye .childnav_title span:before,
+.jkBase .childnav_title span:before,
+.jkSku .childnav_title span:before{
+	content: '';
+	display: inline-block;
+	height: 16px;
+    width: 17px;
+	background: #35b558 url(../imgs/h2icon_a96e146.png) no-repeat center / 15px 14px;
+	vertical-align: middle;
+	position: relative;
+	top: -1.5px;
+	margin-right: 5px;
+
+}
+
+
+
+/********就业学习***********/
+.jkJiuye ul>li:nth-child(2),
+.jkJiuye ul>li:nth-child(3){
+    width: 371px;
+    height: 180px;
+    margin-bottom: 14px;
+    margin-right: 15px;
+}
+
+.jkJiuye ul>li:nth-child(4),
+.jkJiuye ul>li:nth-child(5),
+.jkJiuye ul>li:nth-child(6) {
+    width: 243px;
+    height: 135px;
+    margin-right: 14px;
+}
+.jkJiuye ul>li:last-child,
+.jkJiuye ul>li:nth-child(3) {
+    margin-right: 0;
+}
+
+
+
+/********基础学习***********/
+.jkBase ul>li:not([class='childnav_title']){
+	width: 243px;
+    height: 158px;
+    margin-right: 14px;
+}
+.jkBase ul>li:nth-child(2),
+.jkBase ul>li:nth-child(3),
+.jkBase ul>li:nth-child(4) {
+	margin-bottom: 14px;
+}
+
+.jkBase ul>li:last-child,
+.jkBase ul>li:nth-child(4) {
+    margin-right: 0;
+}
+
+/********专项提高***********/
+.jkSku ul>li:not([class='childnav_title']){
+	width: 371px;
+    height: 158px;
+    margin-right: 14px;
+}
+.jkSku ul>li:nth-child(2),
+.jkSku ul>li:nth-child(3){
+	margin-bottom: 14px;
+}
+.jkSku ul>li:last-child,
+.jkSku ul>li:nth-child(3) {
+    margin-right: 0;
+}
+
+/************************************/
+.jkDk,
+.jkBai,
+.jkStudent,
+.jkOrganization{
+	width: 1000px;
+	margin: 30px auto 0 auto;
+	height: 158px;
+	box-sizing: border-box;
+	position: relative;
+
+}
+.jkStudent{
+	height: 500px;
+}
+.jkDk .childnav_title h2,
+.jkBai .childnav_title h2,
+.jkStudent .childnav_title h2,
+.jkOrganization .childnav_title h2{
+	padding-left: 15px;
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	border-left: 2px solid #35b558;
+	font-size: 19px;
+}
+.jkDk .childnav_title p,
+.jkBai .childnav_title p,
+.jkStudent .childnav_title  p,
+.jkOrganization .childnav_title p{
+	padding-left: 17px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 14px;
+	width: 100%;
+	color: #333;
+	margin-top: 5px;
+}
+.jkDk .childnav_title .img,
+.jkBai .childnav_title .img{
+	width: 100%;
+	height: 88px;
+	text-align: center;
+}
+.jkDk .childnav_title .img img,
+.jkBai .childnav_title .img img{
+	display: inline-block;
+	margin: 16px auto 0 auto;
+}
+.jkDk .childnav_title .img img{
+	width: 105px;
+	height: 72px;
+}
+.jkBai .childnav_title .img img{
+	width: 95px;
+	height: 72px;
+}
+
+.jkDk ul>li:not([class='childnav_title']){
+	width: 371px;
+    height: 158px;
+    margin-right: 14px;
+}
+
+
+.jkBai ul>li:not([class='childnav_title']),
+.jkOrganization ul>li:not([class='childnav_title']){
+	width: 243px;
+    height: 158px;
+    margin-right: 14px;
+    text-align: center;
+}
+.jkBai ul>li:not([class='childnav_title']) a,
+.jkOrganization ul>li:not([class='childnav_title']) a{
+	display: block;
+	height: 100%
+}
+.jkBai ul>li:not([class='childnav_title']) .baiImg,
+.jkOrganization ul>li:not([class='childnav_title']) .baiImg{
+	width: 243px;
+	height: 85px;
+	padding-top: 30px;
+
+}
+.jkBai ul>li:not([class='childnav_title']) span,
+.jkOrganization ul>li:not([class='childnav_title']) span{
+	margin-top: 10px;
+	display: block;
+    font-size: 18px;
+    color: #333;
+    height: 25px;
+    line-height: 25px;
+}
+.jkBai ul>li:not([class='childnav_title']) p,
+.jkOrganization ul>li:not([class='childnav_title']) p{
+	margin-top: 5px;
+    font-size: 12px;
+    color: #666;
+    height: 16px;
+    line-height: 16px;
+}
+.jkBai ul>li:not([class='childnav_title']) img,
+.jkOrganization ul>li:not([class='childnav_title']) img{
+	width: 55px;
+	height: auto;
+}
+.jkBai ul>li:nth-child(2) img{
+	width: 41px;
+	height: 55px;
+}
+.jkDk ul>li:last-child,
+.jkBai ul>li:last-child,
+.jkOrganization ul>li:last-child{
+    margin-right: 0;
+}
+
+/***********他们的故事*************/
+.jkStudent .childnav_title ul{
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+	-webkit-justify-content:space-between;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	width: 100%;
+	height: 420px;
+	padding: 10px 20px 0 15px;
+}
+.jkStudent .childnav_title ul li{
+	display: block;
+	width: 56px;
+    height: 56px;
+    background: #ccc;
+}
+.jkStudent .childnav_title ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.jkStudent .childnav_title ul li a img{
+	width: 100%;
+	height: 100%;
+}
+.jkStudent>ul>li:not([class='childnav_title']){
+	width: 243px;
+	height: 243px;
+	margin-right: 14px;
+	text-align: center;
+    padding-top: 30px;
+}
+.jkStudent>ul>li:nth-child(2),
+.jkStudent>ul>li:nth-child(3),
+.jkStudent>ul>li:nth-child(4){
+	margin-bottom: 14px;
+}
+.jkStudent>ul>li:nth-child(4),
+.jkStudent>ul>li:last-child{
+	margin-right: 0;
+}
+
+.jkStudent>ul>li:not([class='childnav_title']) a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.jkStudent>ul>li:not([class='childnav_title']) a .s_pic{
+	width: 60px;
+	height: 60px;
+	margin: 0 auto;
+}
+.jkStudent>ul>li:not([class='childnav_title']) .s_name{
+	font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+    height: 21px;
+    line-height: 21px;
+}
+.jkStudent>ul>li:not([class='childnav_title']) .s_job{
+	font-size: 12px;
+    color: #888;
+    height: 16px;
+    line-height: 16px;
+    margin-top: 10px;
+}
+.jkStudent>ul>li:not([class='childnav_title']) .s_status {
+    font-size: 12px;
+    color: #888;
+    height: 16px;
+    line-height: 16px;
+    margin-top: 35px;
+}    
+.jkStudent>ul>li:not([class='childnav_title']) a .s_comp{
+	width: auto;
+	height: 20px;
+	margin: 5px auto 0 auto;
+}
+
+/****************修改一些共有特性的不同*************/
+
+.jkBase ul .childnav_title h2 {
+     border-left: 2px solid #2d85ca;
+}
+.jkBase .childnav_title span:before {
+    background: #2d85ca url(../imgs/h2icon_a96e146.png) no-repeat center / 15px 14px;
+}
+.jkSku ul .childnav_title h2 {
+    border-left: 2px solid #ff5c00;
+}
+.jkSku .childnav_title span:before{
+	background: #ff5c00 url(../imgs/h2icon_a96e146.png) no-repeat center / 15px 14px;
+}
+
+.jkDk ul .childnav_title h2 {
+    border-left: 2px solid #ad3a37;
+}
+.jkOrganization ul .childnav_title h2 {
+    border-left: 2px solid #ad3a37;
+}
+/****************给li添加hover效果************/
+section:not([class="jkBanner"])>ul>li{
+	transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+}
+section:not([class="jkBanner"])>ul>li:hover{
+	boedr: 1px solid #ccc;
+    box-shadow: 0 2px 6px #ccc;
+}
+section.jkBai>ul>li:nth-child(4):hover{
+	boedr: none;
+    box-shadow: none;
+}
